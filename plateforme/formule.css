@@ -1,0 +1,36 @@
+body
+{
+    margin-left: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    padding-left: 200px;
+    padding-bottom: 100px;
+    padding-right: 150px;
+    padding-top: 100px;
+    background-image: url("D:\Mes_images\rice.jpg");
+    
+
+}
+fieldset
+{
+    border-radius: 8px;
+    background-color: aquamarine;}
+input
+{
+    border-radius: 7px;
+    margin-top: 20px;
+    width: 200px; 
+    height: 25px; 
+    font-size: large;
+}
+
+h1
+{
+    text-align:center;
+    
+}
+div
+{
+    height: 100px; 
+}

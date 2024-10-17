@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+    body {
+        background-color: #83cce0;
+        font-family: 'Arial', sans-serif; 
+    }
+    
+    .container {
+        margin-top: 50px; 
+        background-color: #928c8c; 
+        padding: 30px; 
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    }
+    </style>
+    
+
+
+<body>
+    <h1>PROBLEMES DE DEMARRAGE</h1>
+    <p>
+        Voici quelques étapes pour résoudre les problèmes de démarrage de Windows :
+
+ <h2>1. Vérifiez les connexions matérielles</h2>
+- Assurez-vous que tous les câbles sont correctement branchés.
+- Vérifiez si le matériel (disque dur, RAM) est bien installé.
+
+<h2>2. Démarrage en mode sans échec</h2>
+- Redémarrez votre ordinateur et appuyez sur F8 (ou Shift + F8 sur certains systèmes) avant que Windows ne démarre.
+- Choisissez "Mode sans échec" dans le menu.
+
+<h2>3. Réparation du démarrage</h2> 
+- Utilisez un support d'installation de Windows (clé USB ou DVD).
+- Démarrez à partir du support et choisissez "Réparer votre ordinateur".
+- Sélectionnez "Dépannage" > "Options avancées" > "Invite de commandes".
+- Exécutez les commandes suivantes :
+  
+bootrec /fixmbr
+bootrec /fixboot
+bootrec /scanos
+bootrec /rebuildbcd
+
+<h2>4. Vérifiez les fichiers système</h2> 
+- En mode sans échec, ouvrez l'invite de commandes.
+- Exécutez la commande :
+  
+sfc /scannow
+
+<h2>5. Désinstaller les mises à jour récentes</h2> 
+- Accédez aux "Options de récupération" depuis le menu de démarrage.
+- Choisissez "Désinstaller les mises à jour".
+
+<h2> 6. Restauration du système</h2>
+- Si vous avez des points de restauration, vous pouvez restaurer votre système à une date antérieure.
+
+<h2>7. Réinstallation de Windows</h2> 
+- Si aucune des solutions ci-dessus ne fonctionne, envisagez de réinstaller Windows. Sauvegardez vos données si possible.
+
+<h2>Conseils supplémentaires</h2> 
+- Vérifiez les messages d'erreur spécifiques qui apparaissent lors du démarrage.
+- Consultez la documentation de votre matériel pour des solutions spécifiques.
+
+N'hésitez pas à demander des précisions sur une étape particulière si nécessaire !
+    </p>
+    <br>
+			<footer><b>SOCIETE HUBERTO ET FILS </b></footer>
+    
+</body>
+</html
